@@ -1,0 +1,18 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Text Summarization</title>
+</head>
+<body>
+    <h1>Text Summarization</h1>
+    <form method="post">
+        <label for="input_text">Input Text:</label>
+        <textarea name="input_text" id="input_text" rows="5" cols="50">{{ input_text }}</textarea>
+        <br>
+        <input type="submit" value="Summarize">
+    </form>
+    <h2>Summarized Text:</h2>
+    <p>{{ summarized_text }}</p>
+</body>
+</html>
